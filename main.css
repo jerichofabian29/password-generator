@@ -1,0 +1,21 @@
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html body{
+    padding: 0;
+    margin: 0;
+    background-color: #111827;
+}
+
+.container{
+    background-color: #111827;
+}
+
+h1{
+    color: white;
+}
+
+span{
+    color: #111827;
+}
