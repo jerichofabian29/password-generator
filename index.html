@@ -10,12 +10,18 @@
     <div class="container">
         <h1>Generate a <br><span>random password</span></h1>
         <p>Never use an insecure password again.</p>
+        <label for="characterCountInput">Set number of characters: </label>
+        <input type="text" name="characterCount" id="characterCountInput" placeholder="1, 2, 3, 4, 5, 6..">
+        <p id="errorMsg">Please fill this field first.</p>
         <button id="generateBtn">Generate passwords</button>
+
         <hr>
         <div class="resultContainer">
+
             <div class="individualResultContainer">
                 <p id="result1">aaaaaaaaaaaaaaa</p>
             </div>
+
             <div class="individualResultContainer">
                 <p id="result2">aaaaaaaaaaaaaaa</p>
             </div>
