@@ -50,12 +50,6 @@ button:hover{
     background-color: #111827;
 }
 
-.result{
-    background-color: #273549;
-    padding: 1em;
-    border-radius: 5px;
-}
-
 hr{
     border: 2px solid #273549;
     width: 100%;
@@ -70,8 +64,8 @@ hr{
 
 .resultContainer .individualResultContainer{
     background-color:#273549;
-    padding: 0.1em 1em;
-    color: #4ADF86;
+    padding: 0em 2em;
+    color:#273549;                 /* #4ADF86 */
     border-radius: 5px;
     text-align: center;
     display: flex;
