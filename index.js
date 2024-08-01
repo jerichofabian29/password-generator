@@ -28,10 +28,15 @@ generateRandomIndex = () => {
     passwordHolder2 += characters[index2];
 }
 
+
+
 let producePasswords = () => {
     if(characterCountInput.value === ""){
         errorMsg.style.display = "block"
         characterCountInput.style.border = "2px solid rgb(218, 81, 81)"
+
+        result1.textContent = "";
+        result2.textContent = "";
     }
     else{
         errorMsg.style.display = "none" // removes the warning if there's any
